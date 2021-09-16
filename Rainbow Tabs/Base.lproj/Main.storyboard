@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Red-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rainbow_Tabs" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,7 +18,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="7iS-5j-pIC"/>
+                    <tabBarItem key="tabBarItem" title="Red" image="r.square.fill" catalog="system" id="7iS-5j-pIC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="138.46153846153845" y="112.32227488151658"/>
         </scene>
-        <!--Item-->
+        <!--Orange-->
         <scene sceneID="TwO-mI-0Ib">
             <objects>
                 <viewController id="fcr-vh-ALf" sceneMemberID="viewController">
@@ -53,7 +53,7 @@
                         <viewLayoutGuide key="safeArea" id="D9C-JM-gSe"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="uMe-qR-eu6"/>
+                    <tabBarItem key="tabBarItem" title="Orange" image="o.square.fill" catalog="system" badgeValue="!" id="uMe-qR-eu6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZk-pD-ZYZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,6 +61,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="o.square.fill" catalog="system" width="128" height="114"/>
+        <image name="r.square.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
