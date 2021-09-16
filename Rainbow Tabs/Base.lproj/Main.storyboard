@@ -53,7 +53,7 @@
                         <viewLayoutGuide key="safeArea" id="D9C-JM-gSe"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Orange" image="o.square.fill" catalog="system" badgeValue="!" id="uMe-qR-eu6"/>
+                    <tabBarItem key="tabBarItem" title="Orange" image="o.square.fill" catalog="system" id="uMe-qR-eu6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZk-pD-ZYZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        tabBarItem.badgeValue = "!"
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        tabBarItem.badgeValue = nil
     }
 
 
