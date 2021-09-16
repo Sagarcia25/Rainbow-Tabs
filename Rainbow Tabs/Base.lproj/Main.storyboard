@@ -11,7 +11,7 @@
         <!--Red-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rainbow_Tabs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RedViewController" customModule="Rainbow_Tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +50,7 @@
         <!--Orange-->
         <scene sceneID="TwO-mI-0Ib">
             <objects>
-                <viewController id="fcr-vh-ALf" sceneMemberID="viewController">
+                <viewController id="fcr-vh-ALf" customClass="OrangeViewController" customModule="Rainbow_Tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wsX-dX-LHJ">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,7 +66,7 @@
         <!--Yellow-->
         <scene sceneID="imx-9l-IiR">
             <objects>
-                <viewController id="JEK-4F-hR2" sceneMemberID="viewController">
+                <viewController id="JEK-4F-hR2" customClass="YellowViewController" customModule="Rainbow_Tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2ma-kv-sKh">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +82,7 @@
         <!--Green-->
         <scene sceneID="b6O-Gq-or7">
             <objects>
-                <viewController id="5Rr-cf-bNt" sceneMemberID="viewController">
+                <viewController id="5Rr-cf-bNt" customClass="GreenViewController" customModule="Rainbow_Tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bNT-xQ-76L">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,7 +98,7 @@
         <!--Blue-->
         <scene sceneID="iO4-a0-SS6">
             <objects>
-                <viewController id="08X-ey-Asp" sceneMemberID="viewController">
+                <viewController id="08X-ey-Asp" customClass="BlueViewController" customModule="Rainbow_Tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="de4-gs-EJL">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,7 +114,7 @@
         <!--Purple-->
         <scene sceneID="LRy-27-8LL">
             <objects>
-                <viewController id="ACu-24-XqV" sceneMemberID="viewController">
+                <viewController id="ACu-24-XqV" customClass="PurpleViewController" customModule="Rainbow_Tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ip6-TQ-UYU">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
