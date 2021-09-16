@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1512" y="864"/>
+            <point key="canvasLocation" x="-1578" y="864"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="T9b-1e-GKw">
@@ -40,6 +40,7 @@
                         <segue destination="JEK-4F-hR2" kind="relationship" relationship="viewControllers" id="xUf-qZ-PZa"/>
                         <segue destination="5Rr-cf-bNt" kind="relationship" relationship="viewControllers" id="Uda-HE-U8k"/>
                         <segue destination="08X-ey-Asp" kind="relationship" relationship="viewControllers" id="L2o-0f-M5h"/>
+                        <segue destination="ACu-24-XqV" kind="relationship" relationship="viewControllers" id="B07-QX-rC2"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WSM-mt-qJb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -60,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZk-pD-ZYZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-678" y="864"/>
+            <point key="canvasLocation" x="-902" y="864"/>
         </scene>
         <!--Yellow-->
         <scene sceneID="imx-9l-IiR">
@@ -76,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s59-UF-zGE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="864"/>
+            <point key="canvasLocation" x="-223" y="864"/>
         </scene>
         <!--Green-->
         <scene sceneID="b6O-Gq-or7">
@@ -92,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9oN-OG-l3d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="962" y="864"/>
+            <point key="canvasLocation" x="486" y="874"/>
         </scene>
         <!--Blue-->
         <scene sceneID="iO4-a0-SS6">
@@ -108,13 +109,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J3t-iJ-OL1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1766" y="864"/>
+            <point key="canvasLocation" x="1160" y="874"/>
+        </scene>
+        <!--Purple-->
+        <scene sceneID="LRy-27-8LL">
+            <objects>
+                <viewController id="ACu-24-XqV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ip6-TQ-UYU">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="y86-zk-d2u"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Purple" image="p.square.fill" catalog="system" id="Qr8-GC-3jY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="obe-8K-EPa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1840" y="874"/>
         </scene>
     </scenes>
     <resources>
         <image name="b.square.fill" catalog="system" width="128" height="114"/>
         <image name="g.square.fill" catalog="system" width="128" height="114"/>
         <image name="o.square.fill" catalog="system" width="128" height="114"/>
+        <image name="p.square.fill" catalog="system" width="128" height="114"/>
         <image name="r.square.fill" catalog="system" width="128" height="114"/>
         <image name="y.square.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemBlueColor">
@@ -125,6 +143,9 @@
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
